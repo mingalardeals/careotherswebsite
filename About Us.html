@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>လောကာဓိပတိဂေဟာ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a2b4a48243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Care Others Index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fas fa-times-c    ircle" onclick="hideMenu()"></i>
+               <ul>
+                <Li><a href="Care Others Index.html">HOME</a></Li>
+                <Li><a href="About Us.html">ABOUT</a></Li>
+                <Li><a href="Course.html">COURSE</a></Li>
+                <Li><a href="Community.html">COMMUNITY</a></Li>
+                <Li><a href="Contact.html">CONTACT</a></Li>
+               </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!------------Header------------> 
+        <h1>လောကာဓိပတိစတင်ဖြစ်ခဲ့ပုံ</h1>
+    </section>
+
+        <!------------About Us Content------------> 
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>လောကအကျိုးကိုသာပြုရန် ရည်စူးတည်ထောင်ထားသော ဂေဟာ </h1>
+                <p>မြန်မာနိုင်ငံ၏ ပထမဦးဆုံးသော လူသားရင်းမြစ်များကို အကောင်းဆုံး ထုတ်သုံးနိုင်ရေးအတွက် ဦးစားပေး အလေးထား၍ ဆောင်ရွက်နေသည့် ဂေဟာ</p>
+                <a href="" class="hero-btn green-btn">ထပ်မံလေ့လာရန်</a>
+            </div>
+            
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    
+    </section>
+       <!---------Footer-----------> 
+
+       <section class="footer">
+        <h2>လောကာဓိပတိစတင်ဖြစ်တည်ခဲ့ပုံ</h2>
+        <p>ကျွန်ုပ်တို့ ပတ်ဝန်းကျင်မှာ ရှိတဲ့ လူငယ်လူရွယ်များကို စိတ်ဓါတ် နှင့် လုပ်ရည်ကိုင်ရည် ဖွံ့ဖြိုးရေး ဆိုင်ရာလုပ်ငန်းများကို လုပ်ဆောင်သွားရန်။
+            မြန်မာနိုင်ငံအတွင်းရှိ တိန်မြုပ်နေသော ရှေးဟောင်း အသက်မွေးဝမ်းကျောင်း ပညာရပ်များကို ရှာဖွေ ဖော်ထုတ်၍ ပြန်လည်အဆင့်မြှင့်တင်၍ ကမ္ဘာနိုင်ငံအသီးသီးဖြင့် ပြန်လည် မျှဝေပေးရန်။
+            ဗုဒ္ဓ၏အဆုံးအမ များ နည်းနားများကို နားလည်ရ အလွယ်ကူဆုံး ဖြစ်စေမည့် နည်းများ အသုံးပြုကာ ပြန်လည်၀မျှသွားရန်။
+            ပြုန်းတီးနေသော သယံဇာတများကို သတိပြုမိကြစေရန် နှင့် ထပ်မံ မပြုန်းတီးစေရေးအတွက် နိုးဆော်တိုက်တွန်းရန် နှင့် ပြန်လည် ပြုပြင်ရန်။
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Make with <i class="fas fa-people-carry"></i> by Care Others IT Team</p>
+</section>
+
+    <!----------Javascript for toggle Menu----------> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
